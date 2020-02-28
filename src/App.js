@@ -14,7 +14,7 @@ function App() {
         <Header />
         <div style={{minHeight: 56}} />
         <Container 
-          maxWidth='sm' 
+          maxWidth='md' 
           style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}
         >
           <Switch>

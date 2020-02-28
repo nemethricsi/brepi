@@ -1,6 +1,8 @@
-.beerContainer {
-  padding-bottom: 24px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 16px;
+
+@media(min-width: 768px) {
+  .beerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
 }
